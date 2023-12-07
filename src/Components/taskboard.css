@@ -1,0 +1,24 @@
+.task-board {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+}
+.task-categories {
+  display: flex;
+  justify-content: space-evenly;
+}
+.text-center {
+  display: flex;
+  justify-content: center;
+}
+.task-item {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid;
+  margin: 5px;
+}
+.drag-scale {
+  transform: scale(1.05);
+}
